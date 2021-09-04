@@ -1,0 +1,21 @@
+h1{
+    font-size: 25px !important;
+}
+.btn-danger:hover{
+    background-color: burlywood;
+}
+
+Canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    border: 2px solid black;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 5px 1px 40px white;
+    }
+    to{
+        box-shadow: 5px 1px 40px red;
+    }
+}
